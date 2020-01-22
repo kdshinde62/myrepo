@@ -1,0 +1,15 @@
+version: "3"
+services:
+  jenkins:
+    image: jenkins/jenkins
+    container_name: jenkins
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - ci-cd
+    volumes:
+      - $PWD/JENKINS_HOME:/var/jenkins_home
+      - $PWD/kslab.pem:/tmp/kslab.pem
+networks:
+ ci-cd:

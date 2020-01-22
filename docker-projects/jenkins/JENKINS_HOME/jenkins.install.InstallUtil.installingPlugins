@@ -1,0 +1,30 @@
+<map>
+  <entry>
+    <string>email-ext</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>pam-auth</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>subversion</string>
+    <string>Failure</string>
+  </entry>
+  <entry>
+    <string>ldap</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>ssh-slaves</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>pipeline-github-lib</string>
+    <string>Success</string>
+  </entry>
+  <entry>
+    <string>matrix-auth</string>
+    <string>Success</string>
+  </entry>
+</map>
